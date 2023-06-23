@@ -18,7 +18,7 @@ const Nav = () => {
     ];
 
     return (
-        <div className="Nav flex justify-around">
+        <div className="Nav flex justify-around rounded">
             <div className="logo">NAV</div>
             <ul className="navlinks flex">
                 {navList.map((link) => (
@@ -32,3 +32,4 @@ const Nav = () => {
 };
 
 export default Nav;
+

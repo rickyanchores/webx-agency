@@ -6,7 +6,7 @@ import Footer from './Components/Footer/Footer';
 
 
 const App = () => (
-  <div className="App m-5">
+  <div className="App">
     <Router>
       <Nav />
       <Routes>
