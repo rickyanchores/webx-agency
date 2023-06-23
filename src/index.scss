@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "./Pages/Home/Home.scss";
+@import "./Components/Card/Card.scss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #333;
+  color: whitesmoke;
+}
+
