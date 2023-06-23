@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import "./Components/Nav/Nav.scss";
 @import "./Pages/Home/Home.scss";
 @import "./Components/Card/Card.scss";
 
