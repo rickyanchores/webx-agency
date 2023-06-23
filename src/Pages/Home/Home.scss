@@ -5,19 +5,9 @@
     .Title{
         text-align: center;
         font-weight: bolder;
+        color: rebeccapurple;
+        text-transform: uppercase;
+        font-size: 40px;
     }
-    .img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .btn{
-        background: teal;
-        padding: 1em;
-        margin-top: 1em;
-        border-radius: 1em;
-    }
-    .btn:hover{
-        background: #ccc;
-        color: #333;
-    }
+    
 }
