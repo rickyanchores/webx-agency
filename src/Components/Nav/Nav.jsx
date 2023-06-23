@@ -19,7 +19,9 @@ const Nav = () => {
 
     return (
         <div className="Nav flex justify-around rounded">
-            <div className="logo">NAV</div>
+            <div className="logo">
+                <h1>webx agency</h1>
+            </div>
             <ul className="navlinks flex">
                 {navList.map((link) => (
                     <li key={link.name} className="link flex justify-between ml-5">
