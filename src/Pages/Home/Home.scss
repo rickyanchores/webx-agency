@@ -1,9 +1,12 @@
 .Home{
-
     .Title{
         text-align: center;
         font-weight: bolder;
         text-transform: uppercase;
         font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
     }
 }

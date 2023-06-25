@@ -5,10 +5,9 @@ import Grid from '../../Components/Grid/Grid';
 
 const Home = () => {
   return (
-    <div className="Home flex flex-col justify-center items-center">
-  
-      <div className="Title flex flex-col justify-center items-center text-orange-400 p-20 text-8xl md:text-9xl m-30">
-        <h1>Webx-Agency</h1>
+    <div className="Home  justify-center items-center">
+      <div className="Title flex-col text-orange-400 p-40 text-8xl md:text-9xl m-30">
+        Webx-Agency
         <Nav />
       </div>
   
